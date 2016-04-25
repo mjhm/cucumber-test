@@ -1,0 +1,22 @@
+{
+  "name": "cucumber_test",
+  "version": "1.0.0",
+  "description": "Test for fake timers in cucumber",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/cucumberjs --compiler coffee:coffee-script/register"
+  },
+  "//": [
+    "cucumber@0.10.2 fails the fakeTimers test"
+  ],
+  "author": "John McLaughlin",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "bluebird": "^3.3.5",
+    "chai": "^3.5.0",
+    "chai-as-promised": "^5.3.0",
+    "cucumber": "https://github.com/mjhm/cucumber-js.git#jm-real-time",
+    "sinon": "^1.17.3",
+    "sinon-chai": "^2.8.0"
+  }
+}
